@@ -1,8 +1,8 @@
 $containername = 'BC-Latest'
 $appname = 'Installation-process-for-BC-Apps'
 $tenant = 'default'
-$version = '1.0.0.0'
-$appfilename = "Default publisher_"+$appname+"_"+$version+".app"
+$version = '2.0.0.0'
+$appfilename = "Default publisher_" + $appname + "_" + $version + ".app"
 
 
 Publish-NavContainerApp -containerName $containername `
@@ -19,6 +19,10 @@ UnPublish-NavContainerApp -containerName $containername `
     -tenant $tenant 
 
 UnInstall-NavContainerApp -containerName $containername `
+    -tenant $tenant `
+    -appName $appname 
+
+Install-NavContainerApp -containerName $containername `
     -tenant $tenant `
     -appName $appname 
 

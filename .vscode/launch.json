@@ -1,7 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "name": "Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "startupObjectId": 50101,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "breakOnRecordWrite": false
+        },
         {
             "type": "al",
             "request": "launch",
