@@ -1,0 +1,23 @@
+{
+  "id": "a00d5718-f6e5-4b48-994f-24823f1af879",
+  "name": "Installation-process-for-BC-Apps",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "1.0 (Business Central Spring 2018)"
+}

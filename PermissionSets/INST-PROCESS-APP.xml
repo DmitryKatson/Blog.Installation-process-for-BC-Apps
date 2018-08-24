@@ -1,0 +1,14 @@
+<PermissionSets>
+    <PermissionSet RoleID="INST.PROCESS.APP" RoleName="Installation process app">
+        <Permission>
+            <ObjectType>TableData</ObjectType>
+            <ObjectID>50101</ObjectID> <!-- ObjectName -->
+            <ReadPermission>1</ReadPermission>
+            <InsertPermission>1</InsertPermission>
+            <ModifyPermission>1</ModifyPermission>
+            <DeletePermission>1</DeletePermission>
+            <ExecutePermission>1</ExecutePermission>
+            <SecurityFilter />
+        </Permission>
+    </PermissionSet>
+</PermissionSets>
