@@ -21,11 +21,16 @@ page 50101 "AIR Check install process List"
                 {
                     ApplicationArea = All;
                 }
-                field(Version; Version)
+                field("Version Installing"; "Version Installing")
                 {
                     ApplicationArea = All;
                 }
-                field("Company Name";"Company Name")
+                field("Version Installed"; "Version Installed")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Company Name"; "Company Name")
                 {
                     ApplicationArea = All;
                 }
