@@ -1,5 +1,5 @@
 use [FinancialsCA] 
-Select * from [AIR Check install process$a00d5718-f6e5-4b48-994f-24823f1af879] where [Primary Key] > 12
+Select *  from [AIR Check install process$a00d5718-f6e5-4b48-994f-24823f1af879] where [Primary Key] > 12
 Select * from [CRONUS Canada, Inc_$Customer]
 SELECT TABLE_NAME FROM [FinancialsCA].INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' 
 Select * from Company

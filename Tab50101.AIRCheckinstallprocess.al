@@ -6,7 +6,6 @@ table 50101 "AIR Check install process"
     {
         field(1; "Primary Key"; Integer)
         {
-            AutoIncrement = true;
         }
         field(2; "Trigger"; Text[250])
         { }
@@ -31,10 +30,18 @@ table 50101 "AIR Check install process"
     var
     begin
         Init();
+        "Primary Key" := GetNextNo();
         "Trigger" := MessageFromTrigger;
         "Company Name" := CompanyName();
         InsertVersionNo();
         Insert();
+    end;
+
+    local procedure GetNextNo(): Integer;
+    begin
+        if findlast then
+            exit("Primary Key" + 1);
+        exit(1);
     end;
 
     local procedure InsertVersionNo()
